@@ -9,7 +9,6 @@
         header {
             background-color: #1E293B;  
             padding: 15px 0;            
-            position: relative;      
             color: white;   
         
         }
@@ -85,7 +84,7 @@
         
         
         nav {
-            display: flexbox;           
+            display: flex;           
             justify-content: space-between; 
             align-items: center;        
         }
