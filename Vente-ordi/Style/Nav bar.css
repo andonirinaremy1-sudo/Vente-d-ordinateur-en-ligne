@@ -1,0 +1,94 @@
+
+        button a {
+            text-decoration: none;      
+            color: black;                
+            padding: 5px 10px;
+            
+        }
+        
+        header {
+            background-color: #1E293B;  
+            padding: 15px 0;            
+            position: relative;      
+            color: white;   
+        
+        }
+        .header-contenu {
+            margin: 0 auto;             
+            padding: 0 20px;            
+            display: flex;              
+            justify-content: space-between; 
+            align-items: center;      
+            color: white;  
+        }
+        
+       
+       
+        
+        
+        .menu-principal {
+            list-style: none;           
+            display: flex;              
+            gap: 20px;                  
+            margin: 0;                  
+            padding: 0;         
+            color: white;        
+        }
+        
+        
+        .menu-principal > li {
+            position: relative;         
+            padding: 10px 0;            
+        }
+        
+       
+        .menu-principal > li > a {
+            text-decoration: none;      
+            color: white;                
+            padding: 5px 10px;          
+        }
+        
+        
+        
+        
+        .sous-menu {
+            display: none;              
+            background-color: #1E293B;    
+            list-style: none;   
+            position: absolute;        
+            padding: 10px 0;            
+            margin: 0;                  
+        }
+        
+        
+        .sous-menu li {
+            padding: 0;                 
+        }
+        
+        
+        .sous-menu a {
+            display: block;             
+            padding: 8px 15px;          
+            text-decoration: none;      
+            color: #F8FAFC;                
+        }
+        
+        
+        .sous-menu a:hover {
+            background-color: #334155;  
+        }
+        
+        
+        .menu-principal > li:hover > .sous-menu {
+            display: block;             
+        }
+        
+        
+        nav {
+            display: flexbox;           
+            justify-content: space-between; 
+            align-items: center;        
+        }
+        body {
+            background-color: #F8FAFC;
+        }
